@@ -22,13 +22,13 @@ public class App {
 
     for (int atv = 1; atv <= qtdAtividades; atv += 1) {
       System.out.println("Digite o nome da atividade " + atv + ":");
-      nome[atv] = scanner.nextLine();
+      nome[atv-1] = scanner.nextLine();
 
       System.out.println("Digite o peso da atividade " + atv + ":");
-      peso[atv] = Float.parseFloat(scanner.nextLine());
+      peso[atv-1] = Float.parseFloat(scanner.nextLine());
 
-      System.out.println("Digite a nota obtida para " + nome[atv] + ":");
-      nota[atv] = Float.parseFloat(scanner.nextLine());
+      System.out.println("Digite a nota obtida para " + nome[atv-1] + ":");
+      nota[atv-1] = Float.parseFloat(scanner.nextLine());
     }
 
     scanner.close();
