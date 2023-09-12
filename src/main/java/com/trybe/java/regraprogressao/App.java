@@ -13,7 +13,7 @@ public class App {
  */
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Digite a quantidade de atividades para cadastrar:");
+    System.out.println("Digite a quantidade de atividades para cadastrar:");
     int qtdAtividades = Integer.parseInt((scanner.nextLine()));
     
     String[] nome = new String[qtdAtividades];
