@@ -20,7 +20,7 @@ public class App {
     Float[] peso = new Float[qtdAtividades];
     Float[] nota = new Float[qtdAtividades];
 
-    for (int atv = 1; atv <= qtdAtividades; atv+=1) {
+    for (int atv = 1; atv <= qtdAtividades; atv += 1) {
       System.out.println("Digite o nome da atividade " + atv + ":");
       nome[atv] = scanner.nextLine();
 
